@@ -8,16 +8,6 @@ public class PostgreSQLJDBCConnection {
   public static String user = "postgres";
   public static String password = "NewPassword123";
 	public static void main(String[] args) {
-			
-			/*
-			sudo apt install postgresql
-			sudo -u postgres psql -c "CREATE DATABASE student_db;"
-			sudo -u postgres psql -d student_db -f assignment3.sql 
-			sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'NewPassword123';"
-			sudo apt install libpostgresql-jdbc-java -y
-			javac --release 8 -cp /usr/share/java/postgresql.jar PostgreSQLJDBCConnection.java
-			java -cp .:/usr/share/java/postgresql.jar PostgreSQLJDBCConnection
-			*/
 
 			// JDBC & Database credentials
 			try { // Load PostgreSQL JDBC Driver
