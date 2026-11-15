@@ -13,3 +13,4 @@ Build and run application:
 javac --release 8 -cp /usr/share/java/postgresql.jar PostgreSQLJDBCConnection.java
 java -cp .:/usr/share/java/postgresql.jar PostgreSQLJDBCConnection
 # COMP3005-assignment3
+# COMP3005-assignment3
